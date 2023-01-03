@@ -75,6 +75,7 @@ body {
   background-size: cover;
   overflow: hidden;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .main-container .card-1 {
@@ -101,6 +102,22 @@ body {
 .main-container .card .left {
   position: absolute;
   top: -100px;
+  width: 20px;
+  height: 20px;
+  fill: white;
+  cursor: pointer;
+}
+
+.main-container .card button {
+  position: absolute;
+  bottom: -500px;
+  padding: 10px;
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.212);
+  border-radius: 99em;
+  left: 24px;
+  outline: none;
 }
 
 .main-container .card h3 {
